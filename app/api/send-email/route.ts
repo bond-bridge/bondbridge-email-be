@@ -32,8 +32,8 @@ export async function POST(request: NextRequest) {
 
 		// Send email using Resend
 		const { data, error } = await resend.emails.send({
-			from: 'onboarding@resend.dev',
-			to: 'vdhruvyt@gmail.com',
+			from: 'info@bondbridge.ai',
+			to: 'info@bondbridge.ai',
 			subject: `New Contact Form Submission from ${name}`,
 			text: `
                     Name: ${name}
